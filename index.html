@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeabJeabArt</title> 
+    <link rel="stylesheet" href="blue_theme_styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+        }
+        .sidebar {
+            width: 380px;
+            background: #fff;
+            padding: 15px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .sidebar ul li:hover {
+            background: #f0f0f0;
+            cursor: pointer;
+        }
+        .content {
+            flex: 1;
+            text-align: center;
+            padding-left: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* ปรับ minmax ให้เหมาะสม */
+            gap: 20px; /* เพิ่ม px เพื่อให้ CSS ทำงานได้ถูกต้อง */
+            max-width: 1200px; /* เพิ่ม max-width ให้ใหญ่ขึ้นเพื่อให้แสดงผลหลายรายการ */
+            margin: auto; /* จัดตำแหน่งแกลเลอรีให้อยู่กลางหน้าจอ */
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 300px;  /* ขนาดภาพ 300px */
+            height: 300px; /* เพิ่ม height เพื่อกำหนดความสูงให้ภาพชัดเจน */
+            object-fit: cover; /* ช่วยให้ภาพปรับเข้ากรอบโดยไม่ผิดรูป */
+            border-radius: 10px; /* เพิ่มมุมโค้งเพื่อความสวยงาม */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* เพิ่มแสงเงาเพื่อความโดดเด่น */
+        }
+
+        .gallery div {
+            text-align: center; /* จัดข้อความให้อยู่ตรงกลางใต้ภาพ */
+        }
+        
+                .logo {
+                    height: 60px; /* ปรับขนาดโลโก้ */
+                }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="sidebar">
+        <div style="display: flex; align-items: center;">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <h1 style="margin-left: 10px;">JeabJeabArt</h1>
+            <br>
+        </div>
+        <a href="https://web.facebook.com/profile.php?id=100083307776505#" target="_blank" style="margin-left: 10px; color: blue; text-decoration: none;">FB; JeabJeabArt</a>
+        <p>Graphic Element สำหรับ Cotributor ชาวไทย</p>
+        <h2>ขั้นตอนการสั่งซื้อ</h2>
+            <p>1. เลือกรายการ</p>
+            <p>2. ส่งข้อความสั่งซื้อที่ FB เพจ<a href="https://web.facebook.com/profile.php?id=100083307776505#" 
+                target="_blank" style="color: blue; text-decoration: none;"> JeabJeabArt</a></p>
+            <p>3. โอนเงิน</p>
+            <p>4. ส่งงานผ่าน G-Mail</p>
+        <ul>
+            <li><a href="item01.html">Item_01_Medical Icon & Technology</a></li>
+            <li><a href="item02.html">Item_02_Industrial Technology</a></li>
+            <li><a href="item03.html">Item_03_Business Dashboard & Icon</a></li>
+            <li><a href="item06.html">Item_06_Energy and Environment Icon</a></li>
+            <li><a href="item07.html">Item_07_Shopping Online Icon</a></li>
+            <li><a href="item08.html">Item_08_Smart Farming Icon</a></li>
+            <li><a href="item09.html">Item_09_AI Icon</a></li>
+            <li><a href="item10.html">Item_10_Business Color Chart</a></li>
+            <li><a href="item11.html">Item_11_Education Icon</a></li>
+            <li><a href="item12.html">Item_12_Chemical Production Piping</a></li>
+            <li><a href="item13.html">Item_13_EV Car & Robot Arm</a></li>
+             <li><a href="item14.html">Item_14_Satisfaction Rating Icon</a></li>
+            <li><a href="item15.html">Item_15_HUD Futuristic Dashboard</a></li>
+            <li><a href="item16.html">Item_16_AI Futuristic Chart</a></li>
+            <li><a href="item17.html">Item_17_Smart Home</a></li>
+            <li><a href="item18.html">Item_18_Business Monitor Dashboard</a></li>
+            <li><a href="item19.html">Item_19_AI Data Analytic Dashboard</a></li>
+            <li><a href="item20.html">Item_20_Body Organ</a></li>
+            <li><a href="item21.html">Item_21_Personal Information</a></li>
+            <li><a href="item22.html">Item_22_Network Security</a></li>
+            <li><a href="item23.html">Item_23_Logistic</a></li>
+            <li><a href="item24.html">Item_24_Smart Farm</a></li>
+            <li><a href="png01.html">PNG-01-Chart Element</a></li>
+            <li><a href="png02.html">PNG-02-Futuristic Chart Element</a></li>
+            <!--<li><a href="preview25.html">VDO_01_Windgenerator Saving Power</a></li>
+            <li><a href="preview26.html">VDO_02_HUD Futuristic Animation</a></li>
+            <li><a href="preview27.html">VDO_03_V-01 Medical HUD Element</a></li>/!-->
+        </ul>
+    </div>
+   
+
+    <div class="gallery">
+
+        <div class="item"><a href="item01.html" target="_blank"><img src="img/010.jpg"></a><p>Item-01 Medical Technology Icon</p><p>ใช้ประกอบงานด้านการแพทย์สุขภาพและเทคโนโลยี</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item02.html" target="_blank"><img src="img/020.jpg"></a><p>Item_02_Industrial Technology</p><p>ใช้ประกอบงานด้านอุตสาหกรรม เทคโนโลยี</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item03.html" target="_blank"><img src="img/030.jpg"></a><p>Item_03_Business Dashboard & Icon</p><p>สำหรับงานด้าน ธุรกิจ เทคโนโลยี</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item06.html" target="_blank"><img src="img/060.jpg"></a><p>Item_06_Energy and Environment Icon</p><p>ประกอบงานด้านพลังงาน สิ่งแวดล้อม</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item07.html" target="_blank"><img src="img/070.jpg"></a><p>Item_07_Shopping Online Icon</p><p>Icon ช้อปปิ้งออนไลน์</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item08.html" target="_blank"><img src="img/080.jpg"></a><p>Item_08_Smart Farming Icon</p><p>IOT Smart Farming เทคโนโลยีการเกษตร</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item09.html" target="_blank"><img src="img/090.jpg"></a><p>Item_09_AI Icon</p>Icon Artificial Intelligence ปัญญาประดิษฐ์<p></p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item10.html" target="_blank"><img src="img/100.jpg"></a><p>Item_10_Business Color Chart</p><p>Bussiness Color Chart กราฟ ชาร์ท แนวธุรกิจ</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item11.html" target="_blank"><img src="img/110.jpg"></a><p>Item_11_Education Icon</p><p>อีเลิร์นนิง, การศึกษา</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item12.html" target="_blank"><img src="img/120.jpg"></a><p>Item_12_Chemical Production Piping</p><p>P&ID Diagram อุตสาหกรรม ระบบท่อ การผลิตร</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item13.html" target="_blank"><img src="img/130.jpg"></a><p>Item_13_EV Car & Robot Arm</p><p>EV Car  รถไฟฟ้า  Robot Arm หุ่นยนต์อุตสาหกรรม</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item14.html" target="_blank"><img src="img/140.jpg"></a><p>Item_14_Satisfaction Rating Icon</p><p>ไอคอนคะแนนความพึงพอใจ</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item15.html" target="_blank"><img src="img/150.jpg"></a><p>Item_15_HUD Futuristic Dashboard</p><p>แบลคกราวด์แนวอนาคต และ กังหันลม</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item16.html" target="_blank"><img src="img/160.jpg"></a><p>Item_16_AI Futuristic Chart</p><p>ปัญญาประดิษฐ์ และ ชาร์ทธุรกิจ</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item17.html" target="_blank"><img src="img/170.jpg"></a><p>Item_17_Smart Home</p><p>บ้านอัจฉริยะ</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item18.html" target="_blank"><img src="img/180.jpg"></a><p>Item_18_Business Monitor Dashboard</p><p>Dashboard Monitor จอแสดงผลชนิดต่างๆ</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item19.html" target="_blank"><img src="img/190.jpg"></a><p>Item_19_AI Data Analytic Dashboard</p><p>แนวการใช้ AI ช่วยในการวิเคราะห์ข้อมูล</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item20.html" target="_blank"><img src="img/200.jpg"></a><p>Item_20_Body Organ</p><p>ร่างกาย อวัยวะ</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item21.html" target="_blank"><img src="img/210.jpg"></a><p>Item_21_Personal Information</p><p>แนวธุรกิจ พนักงานบริษัท</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item22.html" target="_blank"><img src="img/220.jpg"></a><p>Item_22_Network Security</p><p>ความปลอดภัยไซเบอร์ อินเตอร์เน็ต เฮ็กเกอร์</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item23.html" target="_blank"><img src="img/230.jpg"></a><p>Item_23_Logistic</p><p>อุตสาหกรรมการขนส่ง</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item24.html" target="_blank"><img src="img/240.jpg"></a><p>Item_24_Smart Farm</p><p>เทคโนโลยีช่วยในงานด้านเกษตรกรรม</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="png01.html" target="_blank"><img src="img/p010.jpg"></a><p>PNG-01-Chart Element</p><p>กราฟธุรกิจแนวอนาคต สีสันสดใส</p><p>ราคา 500 บาท</p></div>
+        <div class="item"><a href="png02.html" target="_blank"><img src="img/p020.jpg"></a><p>PNG-02-Futuristic Chart Element</p><p>กราฟธุรกิจแนวอนาคต ตีม สีฟ้า-ขาว-ม่วง</p><p>ราคา 400 บาท</p></div>
+        <!--<div class="item"><a href="item25.html" target="_blank"><img src="img/010.jpg"></a><p>VDO_01_Windgenerator Saving Power</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item26.html" target="_blank"><img src="img/010.jpg"></a><p>VDO_02_HUD Futuristic Animation</p><p>ราคา 400 บาท</p></div>
+        <div class="item"><a href="item27.html" target="_blank"><img src="img/010.jpg"></a><p>VDO_03_V-01 Medical HUD Element</p><p>ราคา 400 บาท</p></div>
+    -->
+    </body>
+</html>
